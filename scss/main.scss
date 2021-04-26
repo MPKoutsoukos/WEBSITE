@@ -1,0 +1,104 @@
+$light-yellow: rgba(252, 252, 210, 0.842);
+$cover-image:url('/dist/img/PSX_20210412_005016-removebg-preview.png');
+$title-font: Verdana, Geneva, Tahoma, sans-serif; 
+$first-background-image:url('/dist/img/PSX_20210412_004949-removebg-preview.png');
+$bio-font: Arial, Helvetica, sans-serif;
+$quote-font: 'Times New Roman', Times, serif;
+$cite-font:'Times New Roman', Times, serif;
+*{
+    background:$light-yellow;
+    box-sizing:border-box;
+    
+    
+
+}
+
+#headline #cover {
+    background-repeat: no-repeat;
+    background-image: $cover-image;
+    width:1000px;
+    height:300px;
+    background-position: center;
+    margin:auto;
+    border:20px;
+    padding: 20px;
+}
+
+#headline h1 {
+    text-align: center;
+    font-family: $title-font;
+}
+
+#box1 {
+    align-self: center;
+}
+
+#box1 #image-1 {
+    display: block;
+    border-radius:50%;
+    margin-left:auto; 
+    margin-right:auto;
+    width: 350px;
+}
+
+#box1{
+    background-image: $first-background-image;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain ;
+    /* background-attachment: fixed; */
+}
+
+#bio p {
+    font-family:$bio-font;
+    line-height: 1.2em;
+    width: 50%;
+    margin:auto;
+    padding-top:50px;
+    padding-bottom:50px;
+
+}
+.flex-container{
+    margin-top:25px;
+    display: flex;
+    
+   
+}
+.item{
+    border: black 1px solid;
+    padding:20px;
+    font-family:$quote-font;
+    font-size: small;
+    border-radius: 10px;
+    width: 200px;
+    margin:auto;
+
+}
+
+#quote-1{
+    margin-right:20px;
+}
+#quote-2{
+    margin-left:20px;
+}
+#citation{
+    font-family:$cite-font;
+    font-size:x-small;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:50px;
+}
+
+#contact {
+    margin:50px auto;
+    text-align: center;
+}
+
+#copyright p{
+    border-radius: 10%;
+    border:1px #333 solid;
+    width: 318px;
+    font-size:xx-small;
+    color: grey;
+}
+
